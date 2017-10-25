@@ -1,10 +1,10 @@
 # Bubble Sort project
 
-This is my implementation of the [bubble sort algorithm] (https://en.wikipedia.org/wiki/Bubble_sort).
+This is my implementation of the [bubble sort algorithm](https://en.wikipedia.org/wiki/Bubble_sort).
 
-It's a project from [The Odin Project] (https://www.theodinproject.com/courses/ruby-programming/lessons/advanced-building-blocks).
+It's a project from [The Odin Project](https://www.theodinproject.com/courses/ruby-programming/lessons/advanced-building-blocks).
 
-![Bubble Sort gif] (https://upload.wikimedia.org/wikipedia/commons/c/c8/Bubble-sort-example-300px.gif).
+![Bubble Sort gif](https://upload.wikimedia.org/wikipedia/commons/c/c8/Bubble-sort-example-300px.gif).
 
 The code features two methods that both implement a bubble sort. The second takes a block, while the first doesn't.
 
