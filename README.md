@@ -19,7 +19,7 @@ $ ruby bubble_sort.rb
 
 ## Pre-project thoughts
 
-This is my first exercise in taking an algorithm and turning it into concrete code.
+This motivation for this project is to practice taking an algorithm and turning it into useful code. It's also a chance to get "under the hood" of Ruby and gain a basic understanding of what #sort does behind the scenes. 
 
 ## Post-project thoughts
 
