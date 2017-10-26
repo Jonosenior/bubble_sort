@@ -1,7 +1,5 @@
 def bubble_sort(array)
   max_index = array.length - 1
-  inner_loop_count = 0
-  #swapped = true
   loop do
     swapped = false
     1.upto(max_index) do |i|
@@ -9,23 +7,18 @@ def bubble_sort(array)
         array[i], array[i-1] = array[i-1], array[i]
         swapped = true
       end
-      #inner_loop_count +=1
-      #puts "inner_loop_count: #{inner_loop_count}"
-      #puts "max_index: #{max_index}"
     end
-    return array unless swapped
+    return array if !swapped
     max_index-=1
   end
-  #array
 end
 
 
-bubble_sort([3, 7, 12, 3, 6, 1, 0, 2, 5, 4, 1, 6, 4, 5])
+print bubble_sort([3, 7, 12, 3, 6, 1, 0, 2, 5, 4, 1, 6, 4, 5])
 
 def bubble_sort_by(array)
   max_index = array.length - 1
   inner_loop_count = 0
-  #swapped = true
   loop do
     swapped = false
     1.upto(max_index) do |i|
@@ -34,16 +27,14 @@ def bubble_sort_by(array)
         array[i], array[i-1] = array[i-1], array[i]
         swapped = true
       end
-      #inner_loop_count +=1
-      #puts "inner_loop_count: #{inner_loop_count}"
-      #puts "max_index: #{max_index}"
     end
     return array unless swapped
     max_index-=1
   end
-  #array
 end
 
-bubble_sort_by(["reallyrealllylong", "hi","hello","fuckingwelllong", "hey", "longish"]) do |left,right|
+print(bubble_sort_by(["reallyrealllylong", "hi","hello","fuckingwelllong", "hey", "longish"]) do |left,right|
   left.length - right.length
-end
+end)
+
+#print second_answer
