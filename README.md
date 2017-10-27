@@ -29,4 +29,4 @@ The bubble sort is notoriously slow compared to more sophisticated sorting algor
 
 I found writing the basic algorithm relatively straightforward, while adding the two optimisations took a bit more effort.
 
-I look forward to learning about more sophisticated sorting algorithms later, and about how to assess their effectiveness (ie with Big O notation).
+I look forward to learning about more sophisticated sorting algorithms later, and about how to assess their effectiveness (ie learning about benchmarking with Big O notation).
