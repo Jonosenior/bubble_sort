@@ -36,5 +36,3 @@ end
 print(bubble_sort_by(["reallyrealllylong", "hi","hello","fuckingwelllong", "hey", "longish"]) do |left,right|
   left.length - right.length
 end)
-
-#print second_answer
